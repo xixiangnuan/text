@@ -1,0 +1,91 @@
+body
+  font-size: .14rem
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  display: -webkit-flex
+  -webkit-flex-direction: column
+
+
+.header
+  height: .44rem
+  border-bottom: 1px solid #ccc
+  background-color: #F1333F
+  p
+    width: 90%
+    margin-left: 5%
+    height: .3rem
+    border-radius: .2rem
+    background-color: #ffffff
+    margin-top: .07rem
+    position: relative
+    input
+      height: .28rem
+      margin-left: .3rem
+      border: none
+    i:nth-child(1)
+      position: absolute
+      left: .1rem
+      top: 0.03rem
+    i:nth-child(3)
+      position: absolute
+      right: .1rem
+      top: 0.03rem
+.content
+  -webkit-flex: 1
+  overflow-y: scroll
+  position: relative
+.cont-tit
+  height: .3rem
+  line-height: .3rem
+.tit-iscroll
+  padding: 0 .1rem
+  span
+    margin-right: .15rem
+    color: #636363
+.cont
+  box-sizing: border-box
+  dl
+    padding: .1rem
+    display: flex
+    border-bottom: 1px solid #eee
+    dt
+      width: 1rem
+      height: .7rem
+      border-radius: .08rem
+      img
+        height: 100%
+        width: 100%
+    dd
+      flex: 1
+      position: relative
+      h2
+        font-size: .14rem
+      p
+        width: 90%
+        position: absolute
+        bottom: 0
+        font-size: .12rem
+        color: #666
+        display: flex
+        justify-content: space-between
+        em
+          font-style: normal
+.footer
+  height: .44rem
+  border-top: 1px solid #ccc
+  display: flex
+  align-items: center
+  span
+    width: 20%
+    display: flex
+    align-items: center
+    flex-direction: column
+    i
+      font-size: .2rem
+    b
+      font-size: .1rem
+      font-weight: normal
+span.active
+  color: #F1333F

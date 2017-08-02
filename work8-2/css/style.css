@@ -1,0 +1,98 @@
+body {
+  font-size: 0.14rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: 0.44rem;
+  border-bottom: 1px solid #ccc;
+  background-color: #F1333F; }
+  .header p {
+    width: 90%;
+    margin-left: 5%;
+    height: 0.3rem;
+    border-radius: 0.2rem;
+    background-color: #ffffff;
+    margin-top: 0.07rem;
+    position: relative; }
+    .header p input {
+      height: 0.28rem;
+      margin-left: 0.3rem;
+      border: none; }
+    .header p i:nth-child(1) {
+      position: absolute;
+      left: 0.1rem;
+      top: 0.03rem; }
+    .header p i:nth-child(3) {
+      position: absolute;
+      right: 0.1rem;
+      top: 0.03rem; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  position: relative; }
+
+.cont-tit {
+  height: 0.3rem;
+  line-height: 0.3rem; }
+
+.tit-iscroll {
+  padding: 0 0.1rem; }
+  .tit-iscroll span {
+    margin-right: 0.15rem;
+    color: #636363; }
+
+.cont {
+  box-sizing: border-box; }
+  .cont dl {
+    padding: 0.1rem;
+    display: flex;
+    border-bottom: 1px solid #eee; }
+    .cont dl dt {
+      width: 1rem;
+      height: 0.7rem;
+      border-radius: 0.08rem; }
+      .cont dl dt img {
+        height: 100%;
+        width: 100%; }
+    .cont dl dd {
+      flex: 1;
+      position: relative; }
+      .cont dl dd h2 {
+        font-size: 0.14rem; }
+      .cont dl dd p {
+        width: 90%;
+        position: absolute;
+        bottom: 0;
+        font-size: 0.12rem;
+        color: #666;
+        display: flex;
+        justify-content: space-between; }
+        .cont dl dd p em {
+          font-style: normal; }
+
+.footer {
+  height: 0.44rem;
+  border-top: 1px solid #ccc;
+  display: flex;
+  align-items: center; }
+  .footer span {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .footer span i {
+      font-size: 0.2rem; }
+    .footer span b {
+      font-size: 0.1rem;
+      font-weight: normal; }
+
+span.active {
+  color: #F1333F; }
+
+/*# sourceMappingURL=style.css.map */
